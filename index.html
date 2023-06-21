@@ -1,0 +1,59 @@
+<!--Ya estaba completo desde la clase anterior-->
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Tilt+Prism&display=swap');
+		</style>
+<style>
+	body{
+		background-image: url("mars.gif");
+		background-position: center;
+		background-size: cover;
+		font-family: 'Tilt Prism', cursive !important;
+	}
+	#myCanvas
+	{
+		margin-top: 30px;
+		border-width:10px;
+		background-color: white; 
+		border-style:ridge;
+	}
+	h1{
+		font-size: 45px !important;
+	}
+	h1,h4
+	{
+		color: white !important;
+	}
+	h3{
+		color: antiquewhite !important;
+	}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Mueve el explorador de Marte</title>
+	<link rel="icon" href="mars.jpg">
+</head>
+<body onload="add();">
+
+<center>
+<h1>Mueve el explorador de Marte</h1>
+<h3>Usa las flechas del teclado para moverte</h3>
+
+
+
+	<canvas id="myCanvas" width="800" height="600">
+	</canvas>
+<h4>
+	<b class="text-danger">NOTA : </b> SI NO SE VE EL EXPLORADOR, PRESIONA CUALQUIERA DE LAS FLECHAS
+</h4>
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
